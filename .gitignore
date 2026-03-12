@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+
+# Jobrunner runtime data
+.jobrunner/
+
+# macOS files
+.DS_Store

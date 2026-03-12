@@ -1,0 +1,9 @@
+name: retry_test
+steps:
+  - name: step1
+    command: "echo Fixed"
+    retry: 1
+
+  - name: step2
+    command: "echo Hello"
+    retry: 0
